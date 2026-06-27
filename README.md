@@ -2,8 +2,6 @@
 
 PAIR is an anonymized paired-intervention evaluation library for tool-using agents. It provides core components for constructing controlled twin worlds, replaying tool trajectories, canonicalizing actions, and computing programmatic process metrics.
 
-This release is intentionally minimal. It keeps the reusable benchmark skeleton and removes experiment launchers, model-specific runners, raw result files, paper assets, and nonessential baseline scripts.
-
 ## Contents
 
 - `pair/agents`: base agent interface and trace finalization helper.
@@ -91,7 +89,3 @@ prediction = {
 
 metrics = compute_episode_metrics(episode, prediction)
 ```
-
-## Anonymity
-
-This release avoids author names, institution names, server paths, local filesystem paths, model-provider credentials, and project history. It is intended for anonymous review as a compact code artifact rather than a full experiment archive.
